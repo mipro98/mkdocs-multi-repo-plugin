@@ -3,7 +3,7 @@ from urllib.parse import urljoin
 import os
 
 
-class EditUrlPlugin(BasePlugin):
+class MultiRepoPlugin(BasePlugin):
     def on_page_context(self, context, page, config, **kwargs):
         src_path = page.file.src_path.replace('\\', '/')
         # split the relative file path into list

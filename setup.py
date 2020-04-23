@@ -4,13 +4,13 @@
 import setuptools
 
 setuptools.setup(
-    name="edit_url",
+    name="mkdocs-multi-repo-plugin",
     version='0.1',
     install_requires=['mkdocs>=1.0.4'],
-    packages=["edit_url"],
+    packages=["multi_repo"],
     entry_points={
         'mkdocs.plugins': [
-            'edit_url = edit_url.plugin:EditUrlPlugin',
+            'multi_repo = multi_repo.plugin:MultiRepoPlugin',
         ]
     }
 )
