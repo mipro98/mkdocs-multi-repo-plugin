@@ -24,6 +24,8 @@ This is intended if you build a documentation exclusively out of different repos
 
 Each folder inside `docs` is its own git repository. The **folder name has to be the one of the git repository** (it will be used when creating the url).
 
+**Note:** the link button to the repository will just bring you to your Github/Gitlab/Gitea/etc. profile.
+
 ## Installation
 
 Just execute
