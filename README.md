@@ -6,7 +6,7 @@ Inspired by https://gitlab.com/paulrbr/mkdocs-edit-url/
 
 Use different git repositories in one documentation. Therefore, the `edit_url` gets adjusted to point to the right repo by taking the folder name as repository name. **Currently only repos from the same owner can be used**.
 
-This plugin is made for build a documentation exclusively out of different repositories. So the folder structure should be:
+This plugin is made for building a documentation exclusively out of different repositories. So the folder structure should be:
 
 ```
 ├── docs
