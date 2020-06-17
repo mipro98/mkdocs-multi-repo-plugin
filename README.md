@@ -22,7 +22,7 @@ This plugin is made for building a documentation exclusively out of different re
 └── mkdocs.yml
 ```
 
-Each folder inside `docs` is its own git repository. The **folder name has to be the one of the git repository** (it will be used when creating the url).
+Each folder inside `docs` is its own git repository. The **folder name has to match the name of the git repository** (it will be used when creating the url).
 
 **Note:** the link button to the repository will just bring you to your Github/Gitlab/Gitea/etc. profile.
 
